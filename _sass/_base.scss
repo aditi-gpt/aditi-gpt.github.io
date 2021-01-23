@@ -70,6 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
+    visibility: hidden;
     background-color: white;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
@@ -164,6 +165,7 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            visibility: hidden;
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
